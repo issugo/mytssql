@@ -1,0 +1,28 @@
+{
+  "name": "mytssql",
+  "version": "1.0.0",
+  "description": "mysql with typescript",
+  "main": "dist/index.js",
+  "bin": {
+    "mytssql": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.5.2",
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  }
+}
